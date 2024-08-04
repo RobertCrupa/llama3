@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "llama3"
+version = "0.1.0"
+description = "example llama3 project"
+authors = ["Robert Crupa <robertcrupa@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.2"
+ollama = "^0.3.0"
+torch = "^2.4.0"
+transformers = "^4.43.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
